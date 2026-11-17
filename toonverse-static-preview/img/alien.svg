@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b2f77e"/><stop offset=".6" stop-color="#5fcb43"/><stop offset="1" stop-color="#3ea22f"/></linearGradient></defs><ellipse cx="200" cy="384" rx="112" ry="13" fill="#000" opacity=".2"/>
+<path d="M156 80 L126 28 M244 80 L274 28" stroke="#4cc23a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="122" cy="24" r="15" fill="#ffc83d"/><circle cx="278" cy="24" r="15" fill="#ffc83d"/><circle cx="118" cy="19" r="5" fill="#fff" opacity=".7"/><circle cx="274" cy="19" r="5" fill="#fff" opacity=".7"/>
+<path d="M200 62 Q334 62 334 202 Q334 306 232 354 Q200 366 168 354 Q66 306 66 202 Q66 62 200 62Z" fill="url(#g)"/>
+<path d="M120 100 Q170 74 220 90" stroke="#fff" stroke-width="10" opacity=".35" fill="none" stroke-linecap="round"/>
+<g class="tv-eye"><g class="tv-pupil"><ellipse cx="138" cy="206" rx="54" ry="33" fill="#0f1630" transform="rotate(-22 138 206)"/><ellipse cx="124" cy="196" rx="13" ry="7" fill="#fff" opacity=".85" transform="rotate(-22 124 196)"/></g></g>
+<g class="tv-eye"><g class="tv-pupil"><ellipse cx="262" cy="206" rx="54" ry="33" fill="#0f1630" transform="rotate(22 262 206)"/><ellipse cx="276" cy="196" rx="13" ry="7" fill="#fff" opacity=".85" transform="rotate(22 276 196)"/></g></g>
+<g class="tv-mouth"><path d="M176 296 Q200 314 224 296" stroke="#1f5b17" stroke-width="7" fill="none" stroke-linecap="round"/></g>
+<circle cx="112" cy="268" r="9" fill="#3e9d2f" opacity=".5"/><circle cx="292" cy="262" r="12" fill="#3e9d2f" opacity=".5"/><circle cx="200" cy="120" r="7" fill="#3e9d2f" opacity=".45"/><g class="tv-open"><path d="M166 294 Q200 328 234 294" fill="none" stroke="#1f5b17" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

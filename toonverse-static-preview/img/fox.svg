@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs>
+<linearGradient id="o" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffa468"/><stop offset=".55" stop-color="#ff6b35"/><stop offset="1" stop-color="#e04a14"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffe6d4"/></linearGradient>
+<radialGradient id="g" cx=".5" cy=".4" r=".6"><stop offset="0" stop-color="#fff" stop-opacity=".4"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs><ellipse cx="200" cy="384" rx="112" ry="13" fill="#000" opacity=".2"/>
+<path d="M62 160 L100 28 L178 108 Q200 102 222 108 L300 28 L338 160 Q352 262 272 330 Q200 378 128 330 Q48 262 62 160Z" fill="url(#o)"/>
+<path d="M104 62 L152 112 L96 140Z" fill="#3b1a10"/><path d="M296 62 L248 112 L304 140Z" fill="#3b1a10"/>
+<path d="M200 262 Q120 238 66 222 Q78 292 132 330 Q168 360 200 362 Q232 360 268 330 Q322 292 334 222 Q280 238 200 262Z" fill="url(#w)"/>
+<path d="M110 170 Q150 148 180 176 Q150 202 110 196Z" fill="#c9420f" opacity=".45"/><path d="M290 170 Q250 148 220 176 Q250 202 290 196Z" fill="#c9420f" opacity=".45"/>
+<g class="tv-eye"><g class="tv-pupil"><ellipse cx="148" cy="190" rx="17" ry="23" fill="#1d1a2e"/><circle cx="154" cy="181" r="6.5" fill="#fff"/><circle cx="143" cy="200" r="3" fill="#fff" opacity=".8"/></g></g><g class="tv-eye"><g class="tv-pupil"><ellipse cx="252" cy="190" rx="17" ry="23" fill="#1d1a2e"/><circle cx="258" cy="181" r="6.5" fill="#fff"/><circle cx="247" cy="200" r="3" fill="#fff" opacity=".8"/></g></g>
+<ellipse cx="200" cy="296" rx="21" ry="15" fill="#1d1a2e"/><ellipse cx="193" cy="291" rx="6" ry="3.5" fill="#fff" opacity=".5"/>
+<g class="tv-mouth"><path d="M200 311 V326 M200 326 Q184 342 166 332 M200 326 Q216 342 234 332" stroke="#1d1a2e" stroke-width="6" stroke-linecap="round" fill="none"/></g>
+<circle cx="112" cy="262" r="17" fill="#ff7a9a" opacity=".45"/><circle cx="288" cy="262" r="17" fill="#ff7a9a" opacity=".45"/>
+<path d="M130 58 Q200 34 270 58 Q200 92 130 58Z" fill="url(#g)"/><g class="tv-open"><path d="M166 322 Q200 360 234 322" fill="none" stroke="#1d1a2e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

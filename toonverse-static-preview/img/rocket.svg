@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dfe9ef"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#bccbd4"/></linearGradient>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe27a"/><stop offset=".5" stop-color="#ff9a3d"/><stop offset="1" stop-color="#ff4d3d" stop-opacity="0"/></linearGradient>
+<radialGradient id="wd" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#7dfbe6"/><stop offset="1" stop-color="#1fb7a0"/></radialGradient></defs>
+<g fill="#fff"><circle cx="60" cy="70" r="5" opacity=".9"/><circle cx="340" cy="110" r="4" opacity=".8"/><circle cx="330" cy="300" r="6" opacity=".7"/><circle cx="70" cy="320" r="4" opacity=".8"/></g>
+<g transform="rotate(22 200 210)">
+<g class="tv-flame"><path d="M200 292 Q164 346 200 396 Q236 346 200 292Z" fill="url(#f)"/><path d="M200 292 Q184 326 200 356 Q216 326 200 292Z" fill="#fff4c2" opacity=".85"/></g>
+<path d="M124 196 Q66 228 56 298 L130 262Z" fill="#ff3d57"/><path d="M276 196 Q334 228 344 298 L270 262Z" fill="#ff3d57"/>
+<path d="M200 28 Q300 104 282 258 L118 258 Q100 104 200 28Z" fill="url(#b)"/>
+<path d="M200 28 Q250 66 270 118 L130 118 Q150 66 200 28Z" fill="#ff3d57"/>
+<rect x="146" y="252" width="108" height="26" rx="12" fill="#a5b6c0"/>
+<circle cx="200" cy="176" r="42" fill="#0c2a39"/><circle cx="200" cy="176" r="33" fill="url(#wd)"/><ellipse cx="188" cy="164" rx="11" ry="7" fill="#fff" opacity=".7" transform="rotate(-30 188 164)"/>
+<path d="M116 214 Q200 232 284 214" stroke="#c8d6de" stroke-width="5" fill="none" opacity=".7"/></g></svg>

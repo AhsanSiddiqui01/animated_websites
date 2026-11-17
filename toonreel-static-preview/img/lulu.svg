@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260"><style>
+.eye{transform-box:fill-box;transform-origin:center;animation:b 4.6s infinite}
+@keyframes b{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+.wave{transform-box:view-box;transform-origin:182px 158px;animation:w .65s ease-in-out infinite alternate}
+@keyframes w{from{transform:rotate(-12deg)}to{transform:rotate(24deg)}}
+</style><g stroke="#1f1b4d" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="90" cy="58" rx="20" ry="46" transform="rotate(-12 90 58)" fill="#ff8fb8"/>
+<ellipse cx="90" cy="62" rx="8" ry="28" transform="rotate(-12 90 62)" fill="#ffd0e3" stroke="none"/>
+<ellipse cx="150" cy="58" rx="20" ry="46" transform="rotate(12 150 58)" fill="#ff8fb8"/>
+<ellipse cx="150" cy="62" rx="8" ry="28" transform="rotate(12 150 62)" fill="#ffd0e3" stroke="none"/>
+<ellipse cx="90" cy="238" rx="30" ry="15" fill="#ff8fb8"/><ellipse cx="150" cy="238" rx="30" ry="15" fill="#ff8fb8"/>
+<ellipse cx="120" cy="158" rx="70" ry="72" fill="#ff8fb8"/>
+<ellipse cx="120" cy="192" rx="40" ry="32" fill="#ffe3ef" stroke="none"/>
+<path d="M120 96L96 84V108ZM120 96L144 84V108Z" fill="#ffc233" stroke-width="5"/><circle cx="120" cy="96" r="7" fill="#ffc233" stroke-width="5"/>
+<ellipse cx="52" cy="188" rx="17" ry="12" transform="rotate(30 52 188)" fill="#ff8fb8"/>
+<g class="wave"><ellipse cx="190" cy="156" rx="17" ry="12" transform="rotate(-55 190 156)" fill="#ff8fb8"/></g>
+<g class="eye"><ellipse cx="98" cy="140" rx="10" ry="15" fill="#1f1b4d" stroke="none"/><circle cx="101" cy="134" r="4" fill="#fff" stroke="none"/></g>
+<g class="eye"><ellipse cx="142" cy="140" rx="10" ry="15" fill="#1f1b4d" stroke="none"/><circle cx="145" cy="134" r="4" fill="#fff" stroke="none"/></g>
+<ellipse cx="120" cy="156" rx="8" ry="6" fill="#d6336c" stroke-width="4"/>
+<path d="M107 167Q113.5 176 120 167Q126.5 176 133 167" fill="none" stroke-width="4.5"/>
+<circle cx="76" cy="158" r="11" fill="#3d5afe" opacity=".45" stroke="none"/><circle cx="164" cy="158" r="11" fill="#3d5afe" opacity=".45" stroke="none"/>
+</g></svg>
