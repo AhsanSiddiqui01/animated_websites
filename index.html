@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animated Odoo Website Themes</title>
+<meta name="description" content="Two animated Odoo 18 website themes: ToonReel (3D cartoon video site) and ToonVerse (cinematic cartoon universe). Live static previews.">
+<style>
+:root { --bg: #0d0a26; --card: #17133f; --ink: #f2efff; --mut: #aaa5d8; --line: rgba(255,255,255,.14); }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0; min-height: 100vh; color: var(--ink); background: var(--bg);
+    background-image: radial-gradient(760px 520px at 8% 0%, rgba(61,90,254,.32), transparent 70%), radial-gradient(760px 520px at 95% 8%, rgba(255,107,53,.22), transparent 70%);
+    background-repeat: no-repeat; font: 16px/1.55 "Segoe UI", system-ui, -apple-system, Arial, sans-serif; -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+.wrap { width: min(1080px, 92%); margin: 0 auto; }
+header { padding: 56px 0 30px; text-align: center; }
+.eyebrow { display: inline-block; padding: 6px 16px; border-radius: 999px; border: 1px solid var(--line); color: var(--mut); font-size: 12.5px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; }
+h1 { margin: 18px 0 12px; font-size: clamp(34px, 6vw, 62px); line-height: 1.05; letter-spacing: -1px; }
+h1 em { font-style: normal; background: linear-gradient(90deg, #7f95ff, #ff8a5c); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+header p { margin: 0 auto; max-width: 640px; color: var(--mut); font-size: 18px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; padding: 26px 0 40px; }
+.card { display: flex; flex-direction: column; border-radius: 26px; overflow: hidden; background: var(--card); border: 1px solid var(--line); transition: transform .25s, box-shadow .25s, border-color .25s; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px -24px var(--glow); border-color: var(--glow); }
+.pic { position: relative; height: 210px; display: grid; place-items: center; overflow: hidden; }
+.pic::before, .pic::after { content: ""; position: absolute; border-radius: 50%; background: rgba(255,255,255,.18); }
+.pic::before { width: 240px; height: 240px; left: -60px; bottom: -120px; }
+.pic::after { width: 110px; height: 110px; right: 30px; top: 22px; }
+.pic span { position: relative; z-index: 1; font-size: clamp(34px, 5vw, 46px); font-weight: 900; letter-spacing: -1px; color: #fff; text-shadow: 0 6px 24px rgba(0,0,0,.35); }
+.pic i { position: absolute; z-index: 1; right: 22px; bottom: 18px; padding: 5px 12px; border-radius: 999px; font: 700 12px/1 system-ui, sans-serif; font-style: normal; background: rgba(0,0,0,.35); color: #fff; }
+.reel .pic { background: linear-gradient(135deg, #3d5afe, #18b7ff 60%, #12d6a0); }
+.verse .pic { background: linear-gradient(135deg, #ff6b35, #ff3d81 60%, #8b6bff); }
+.reel { --glow: #3d5afe; } .verse { --glow: #ff6b35; }
+.body { display: flex; flex-direction: column; flex: 1; padding: 24px 26px 28px; }
+h2 { margin: 0 0 8px; font-size: 26px; letter-spacing: -.3px; }
+.body p { margin: 0 0 16px; color: var(--mut); }
+ul { margin: 0 0 22px; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+li { padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); font-size: 13px; font-weight: 600; color: var(--ink); }
+.btn { margin-top: auto; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 22px; border-radius: 14px; font-weight: 800; color: #fff; background: linear-gradient(135deg, var(--glow), #8b6bff); }
+.btn:hover { filter: brightness(1.1); }
+.note { margin: 0 auto; padding: 22px 26px; max-width: 820px; border-radius: 18px; border: 1px dashed var(--line); color: var(--mut); font-size: 15px; text-align: center; }
+.note b { color: var(--ink); }
+footer { padding: 34px 0 50px; text-align: center; color: var(--mut); font-size: 14px; }
+footer a { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header class="wrap">
+    <span class="eyebrow">Odoo 18 &middot; Website themes</span>
+    <h1>Animated <em>cartoon websites</em></h1>
+    <p>Two custom Odoo website themes with scroll animation. Pick one to open the live preview.</p>
+</header>
+
+<main class="wrap">
+    <div class="grid">
+        <a class="card reel" href="toonreel-static-preview/">
+            <div class="pic"><span>ToonReel</span><i>Live preview</i></div>
+            <div class="body">
+                <h2>ToonReel</h2>
+                <p>A bright cartoon video site with a 3D scroll hero. Search, filters, pagination, popup player and a light / dark switch.</p>
+                <ul><li>3D WebGL hero</li><li>Search &amp; pagination</li><li>Light / Dark</li><li>Video popup</li></ul>
+                <span class="btn">Open ToonReel &rarr;</span>
+            </div>
+        </a>
+        <a class="card verse" href="toonverse-static-preview/">
+            <div class="pic"><span>ToonVerse</span><i>Live preview</i></div>
+            <div class="body">
+                <h2>ToonVerse</h2>
+                <p>A cinematic cartoon universe: pinned scroll stories, animated mascots, services, about and contact pages.</p>
+                <ul><li>Scroll storytelling</li><li>Animated mascots</li><li>5 pages</li><li>Contact form</li></ul>
+                <span class="btn">Open ToonVerse &rarr;</span>
+            </div>
+        </a>
+    </div>
+    <p class="note"><b>About these previews:</b> both are static copies so they can be hosted for free. The real products are Odoo 18 modules (<b>theme_toonreel</b>, <b>theme_toonverse</b>) where the site owner manages content from the Odoo backend. See the source on
+        <a href="https://github.com/ahsansiddiqui01/animated_websites" style="text-decoration:underline">GitHub</a>.</p>
+</main>
+
+<footer class="wrap">Demo videos are open-licensed Blender Foundation / Blender Studio films (Creative Commons).</footer>
+</body>
+</html>
